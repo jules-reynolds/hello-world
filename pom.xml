@@ -3,4 +3,12 @@
   <groupId>com.jenkins</groupId>
   <artifactId>helloworld</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+    <dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>1.2.3</version>
+    <scope>test</scope>
+    </dependency>
+  </dependencies>
 </project>
